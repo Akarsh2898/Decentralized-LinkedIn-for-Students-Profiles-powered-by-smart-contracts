@@ -1,0 +1,16 @@
+[package]
+name = "Decentralized_LinkedIn"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x25c6761f86303b9d76d3b56afe02a8ccadeac096ded51076eb3eaa4c46aa3e16"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
